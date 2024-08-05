@@ -1,0 +1,180 @@
+/*------------- #STUNNING-HEADER --------------*/
+
+
+.crumina-stunning-header {
+  position: relative;
+  padding: 80px 0;
+  background-position: center center;
+
+  &.blog-page{
+    padding: 60px 0 120px;
+  }
+}
+
+.stunning-header-content {
+  & > * {
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.stunning-header--format-video {
+  padding-bottom: 0;
+
+  .post-thumb {
+    margin-top: 60px;
+  }
+}
+
+.stunning-header--format-case {
+  padding-bottom: 0;
+
+  .case-thumb {
+    margin-top: 60px;
+  }
+}
+
+/*------------- #Any colors background --------------*/
+
+
+.section-image-bg-dark {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-dark.jpg");
+}
+
+.section-image-bg-blue {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-blue.jpg");
+}
+
+.section-image-bg-yellow {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-yellow.jpg");
+}
+
+.section-image-bg-red {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-red.jpg");
+}
+
+.section-image-bg-purple {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-purple.jpg");
+}
+
+.section-image-bg-moon {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-moon.jpg");
+}
+
+.section-image-bg-lime {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-lime.jpg");
+}
+
+.section-image-bg-grey-darken {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-grey-darken.jpg");
+}
+
+.section-image-bg-grey-dark {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-grey-dark.jpg");
+}
+
+.section-image-bg-grey {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-grey.jpg");
+}
+
+.section-image-bg-green {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-green.jpg");
+}
+
+.section-image-bg-dark {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-dark.jpg");
+}
+
+.section-image-bg-brown {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-brown.jpg");
+}
+
+.section-image-bg-breez {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-breez.jpg");
+}
+
+.section-image-bg-blue-light {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-blue-light.jpg");
+}
+
+.section-image-bg-blue-dark {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-blue-dark.jpg");
+}
+
+.section-image-bg-blue {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-blue.jpg");
+}
+
+.section-image-bg-black {
+  background-image: url("../img/demo-content/stunning-header/pattern-bg-black.jpg");
+}
+
+.section-bg-photo {
+  background-size: cover;
+}
+
+.bg-photo1 {
+  background-image: url("../img/demo-content/stunning-header/photo.jpg");
+}
+
+.bg-photo2 {
+  background-image: url("../img/demo-content/illustrations/img3.jpg");
+}
+
+.bg-photo3 {
+  background-image: url("../img/demo-content/illustrations/img4.jpg");
+}
+
+.bg-photo4 {
+  background-image: url("../img/demo-content/illustrations/img5.jpg");
+}
+
+.bg-photo5 {
+  background-image: url("../img/demo-content/illustrations/img6.jpg");
+}
+
+.bg-1 {
+  background-image: url("../img/demo-content/illustrations/img26.jpg");
+}
+
+.bg-2 {
+  background-image: url("../img/demo-content/illustrations/img27.jpg");
+}
+
+.bg-3 {
+  background-image: url("../img/demo-content/illustrations/img28.jpg");
+}
+
+.bg-4 {
+  background-image: url("../img/demo-content/illustrations/img29.jpg");
+}
+
+.bg-5 {
+  background-image: url("../img/demo-content/illustrations/img30.jpg");
+}
+
+.crumina-background-parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*================= Responsive Mode ============*/
+
+@media (max-width: 991px) {
+  .crumina-stunning-header {
+    padding: 40px 0;
+  }
+
+  .stunning-header--format-case {
+    padding-bottom: 0;
+  }
+
+  .stunning-header--format-video {
+	padding-bottom: 0;
+  }
+}

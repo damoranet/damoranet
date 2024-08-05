@@ -1,0 +1,891 @@
+CRITICAL - 2024-06-05 10:41:03 --> Error: Class "CI_Controller" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Paginas.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 10:42:23 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 3.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 10:42:25 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 3.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 10:42:48 --> Error: Class "CI_Controller" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Paginas.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 10:42:49 --> Error: Class "CI_Controller" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Paginas.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:13:47 --> Error: Class "CI_Controller" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Paginas.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:14:20 --> Error: Class "CI_Controller" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Paginas.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:21:29 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, none returned
+[Method: GET, Route: home]
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:21:34 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:22:22 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:22:41 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:22:45 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, none returned
+[Method: GET, Route: home]
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:25:13 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, none returned
+[Method: GET, Route: home]
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:32:14 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::SetDefaulController()
+[Method: GET, Route: home]
+in APPPATH\Config\Routes.php on line 10.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:32:15 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::SetDefaulController()
+[Method: GET, Route: home]
+in APPPATH\Config\Routes.php on line 10.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:32:19 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::SetDefaulController()
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 10.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:40:41 --> Error: Class "Services" not found
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 9.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:40:42 --> Error: Class "Services" not found
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 9.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:40:47 --> Error: Class "Services" not found
+[Method: GET, Route: home]
+in APPPATH\Config\Routes.php on line 9.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:41:04 --> Error: Class "Services" not found
+[Method: GET, Route: home]
+in APPPATH\Config\Routes.php on line 9.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:41:06 --> Error: Class "Services" not found
+[Method: GET, Route: home]
+in APPPATH\Config\Routes.php on line 9.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:43:42 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::SetDefaulController()
+[Method: GET, Route: home]
+in APPPATH\Config\Routes.php on line 15.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:43:43 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::SetDefaulController()
+[Method: GET, Route: home]
+in APPPATH\Config\Routes.php on line 15.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:43:46 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::SetDefaulController()
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 15.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:46:02 --> Error: Class "CI_Controller" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Paginas.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:46:06 --> Error: Class "CI_Controller" not found
+[Method: GET, Route: home]
+in APPPATH\Controllers\Paginas.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 18:46:11 --> Error: Class "CI_Controller" not found
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Paginas.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 19:30:22 --> Error: Class "CI_Controller" not found
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Paginas.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 19:32:35 --> Error: Class "CI_Controller" not found
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Paginas.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 19:32:39 --> Error: Class "CI_Controller" not found
+[Method: GET, Route: ihome]
+in APPPATH\Controllers\Paginas.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 19:32:45 --> Error: Class "CI_Controller" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Paginas.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 19:49:13 --> TypeError: App\Controllers\Cargar::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 19:49:46 --> TypeError: App\Controllers\Cargar::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 19:51:32 --> TypeError: App\Controllers\Cargar::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 19:51:33 --> TypeError: App\Controllers\Cargar::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 19:58:22 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: GET, Route: /]
+in APPPATH\Controllers\Paginas.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->visualizar()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:03:09 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: GET, Route: /]
+in APPPATH\Controllers\Paginas.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->visualizar()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:04:13 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: GET, Route: /]
+in APPPATH\Controllers\Paginas.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:04:51 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: GET, Route: /]
+in APPPATH\Controllers\Paginas.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:12:38 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: inicio]
+in APPPATH\Views\paginas\inicio.php on line 9.
+ 1 APPPATH\Views\paginas\inicio.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\inicio.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/inicio', [], true)
+ 5 APPPATH\Controllers\Paginas.php(39): view('paginas/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:20:24 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Paginas.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:20:25 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Paginas.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:21:29 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Paginas.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:22:33 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Paginas.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:22:34 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Paginas.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Paginas.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paginas')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paginas')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Paginas', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:27:08 --> TypeError: Unsupported operand types: string + string
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Paginas.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->inicio()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:27:09 --> TypeError: Unsupported operand types: string + string
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Paginas.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->inicio()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:37:30 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: inicio]
+in APPPATH\Views\paginas\inicio.php on line 9.
+ 1 APPPATH\Views\paginas\inicio.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\inicio.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/inicio', [], true)
+ 5 APPPATH\Controllers\Paginas.php(38): view('paginas/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:45:16 --> TypeError: App\Controllers\Cargar::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:45:35 --> TypeError: App\Controllers\Cargar::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:46:00 --> ParseError: syntax error, unexpected token "echo", expecting ";"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cargar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cargar')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Cargar', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:46:02 --> ParseError: syntax error, unexpected token "echo", expecting ";"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cargar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cargar')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Cargar', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:50:16 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: GET, Route: /]
+in APPPATH\Controllers\Paginas.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 20:51:59 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: GET, Route: otra]
+in APPPATH\Controllers\Paginas.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 21:15:53 --> ParseError: syntax error, unexpected single-quoted string "css/style.css", expecting "," or ";"
+[Method: GET, Route: inicio]
+in APPPATH\Views\plantilla\head.php on line 8.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('plantilla/head', [], true)
+ 3 APPPATH\Controllers\Paginas.php(37): view('plantilla/head')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 21:16:12 --> Error: Undefined constant "css"
+[Method: GET, Route: inicio]
+in APPPATH\Views\plantilla\head.php on line 8.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('plantilla/head', [], true)
+ 4 APPPATH\Controllers\Paginas.php(37): view('plantilla/head')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->inicio()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 21:16:13 --> Error: Undefined constant "css"
+[Method: GET, Route: inicio]
+in APPPATH\Views\plantilla\head.php on line 8.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('plantilla/head', [], true)
+ 4 APPPATH\Controllers\Paginas.php(37): view('plantilla/head')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->inicio()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 21:17:32 --> ParseError: syntax error, unexpected token "echo"
+[Method: GET, Route: inicio]
+in APPPATH\Views\plantilla\head.php on line 8.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('plantilla/head', [], true)
+ 3 APPPATH\Controllers\Paginas.php(37): view('plantilla/head')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 21:17:34 --> ParseError: syntax error, unexpected token "echo"
+[Method: GET, Route: inicio]
+in APPPATH\Views\plantilla\head.php on line 8.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('plantilla/head', [], true)
+ 3 APPPATH\Controllers\Paginas.php(37): view('plantilla/head')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 21:24:50 --> TypeError: App\Controllers\Cargar::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 21:24:53 --> TypeError: App\Controllers\Cargar::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 21:28:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+[Method: GET, Route: inicio]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\View\View.php(484): CodeIgniter\View\View->render('header', null, true)
+ 3 APPPATH\Views\paginas\inic.php(1): CodeIgniter\View\View->include('header')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\inic.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/inic', [], true)
+ 7 APPPATH\Controllers\Paginas.php(37): view('paginas/inic')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->inicio()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 21:29:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+[Method: GET, Route: inicio]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\View\View.php(484): CodeIgniter\View\View->render('header', null, true)
+ 3 APPPATH\Views\paginas\inic.php(1): CodeIgniter\View\View->include('header')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\inic.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/inic', [], true)
+ 7 APPPATH\Controllers\Paginas.php(37): view('paginas/inic')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->inicio()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 21:30:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "footer.php"
+[Method: GET, Route: inicio]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer.php')
+ 2 SYSTEMPATH\View\View.php(484): CodeIgniter\View\View->render('footer', null, true)
+ 3 APPPATH\Views\paginas\inic.php(8): CodeIgniter\View\View->include('footer')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\inic.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/inic', [], true)
+ 7 APPPATH\Controllers\Paginas.php(37): view('paginas/inic')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->inicio()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 22:02:06 --> TypeError: App\Controllers\Cargar::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 22:26:59 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: inicio]
+in APPPATH\Views\paginas\inicio.php on line 9.
+ 1 APPPATH\Views\paginas\inicio.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\inicio.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/inicio', [], true)
+ 5 APPPATH\Controllers\Paginas.php(37): view('paginas/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 22:28:08 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: inicio]
+in APPPATH\Views\paginas\inicio-copia.php on line 8.
+ 1 APPPATH\Views\paginas\inicio-copia.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\inicio-copia.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\inicio-copia.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/inicio-copia', [], true)
+ 5 APPPATH\Controllers\Paginas.php(37): view('paginas/inicio-copia')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 22:39:32 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: inicio]
+in APPPATH\Views\paginas\inicio.php on line 478.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/inicio', [], true)
+ 3 APPPATH\Controllers\Paginas.php(37): view('paginas/inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 23:04:02 --> ArgumentCountError: Too few arguments to function App\Controllers\Cargar::index(), 0 passed in C:\xampp\htdocs\damoranet-ci4\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Cargar.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 23:04:21 --> ArgumentCountError: Too few arguments to function App\Controllers\Cargar::index(), 0 passed in C:\xampp\htdocs\damoranet-ci4\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Cargar.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 23:04:25 --> ArgumentCountError: Too few arguments to function App\Controllers\Cargar::index(), 0 passed in C:\xampp\htdocs\damoranet-ci4\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 23:05:28 --> ArgumentCountError: Too few arguments to function App\Controllers\Cargar::index(), 0 passed in C:\xampp\htdocs\damoranet-ci4\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 23:05:33 --> ArgumentCountError: Too few arguments to function App\Controllers\Cargar::index(), 0 passed in C:\xampp\htdocs\damoranet-ci4\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Cargar.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 23:05:36 --> ArgumentCountError: Too few arguments to function App\Controllers\Cargar::index(), 0 passed in C:\xampp\htdocs\damoranet-ci4\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Cargar.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 23:11:38 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: nosotros]
+in APPPATH\Views\paginas\nosotros.php on line 10.
+ 1 APPPATH\Views\paginas\nosotros.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\nosotros.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\nosotros.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/nosotros', [], true)
+ 5 APPPATH\Controllers\Cargar.php(17): view('paginas/nosotros')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index('nosotros')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 23:13:03 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: nosotros]
+in APPPATH\Views\paginas\nosotros.php on line 10.
+ 1 APPPATH\Views\paginas\nosotros.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\nosotros.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\nosotros.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/nosotros', [], true)
+ 5 APPPATH\Controllers\Cargar.php(17): view('paginas/nosotros')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index('nosotros')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 23:14:18 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: nosotros]
+in APPPATH\Views\paginas\nosotros.php on line 10.
+ 1 APPPATH\Views\paginas\nosotros.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\nosotros.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\nosotros.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/nosotros', [], true)
+ 5 APPPATH\Controllers\Cargar.php(17): view('paginas/nosotros')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index('nosotros')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 23:43:13 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: blog-indice]
+in APPPATH\Views\paginas\blog-indice.php on line 10.
+ 1 APPPATH\Views\paginas\blog-indice.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\blog-indice.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\blog-indice.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/blog-indice', [], true)
+ 5 APPPATH\Controllers\Cargar.php(15): view('paginas/blog-indice')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index('blog-indice')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 23:43:24 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: contacto]
+in APPPATH\Views\paginas\contacto.php on line 9.
+ 1 APPPATH\Views\paginas\contacto.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\contacto.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/contacto', [], true)
+ 5 APPPATH\Controllers\Cargar.php(15): view('paginas/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index('contacto')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-05 23:44:47 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: posicionamiento-seo]
+in APPPATH\Views\paginas\posicionamiento-seo.php on line 10.
+ 1 APPPATH\Views\paginas\posicionamiento-seo.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\posicionamiento-seo.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\posicionamiento-seo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/posicionamiento-seo', [], true)
+ 5 APPPATH\Controllers\Cargar.php(15): view('paginas/posicionamiento-seo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index('posicionamiento-seo')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

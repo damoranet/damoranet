@@ -1,0 +1,41 @@
+/*------------- #W-LINKS --------------*/
+
+
+.widget_links {
+  ul {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+
+	a {
+	  display: flex;
+	  align-items: center;
+	  font-size: 15px;
+	}
+
+	.crumina-icon {
+	  fill: var(--body-font-color);
+	  margin-right: 10px;
+	}
+
+	li:hover {
+	  a {
+		color: var(--primary-accent-color);
+		transform: translateX(5px);
+	  }
+
+	  .crumina-icon {
+		fill: var(--primary-accent-color);
+	  }
+	}
+  }
+}
+
+/*------------- Responsive Mode --------------*/
+
+
+@media (max-width: 768px) {
+  .widget_links ul a {
+	justify-content: center;
+  }
+}

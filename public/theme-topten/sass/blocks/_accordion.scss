@@ -1,0 +1,117 @@
+/*------------- #ACCORDIONS --------------*/
+
+
+.crumina-accordion {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .card-header {
+	padding: 20px 30px;
+  }
+
+  & > .card:not(:first-of-type):not(:last-of-type) {
+	border-radius: 10px;
+  }
+
+  & > .card:first-of-type {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+  }
+
+  & > .card:last-of-type {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+  }
+
+  .btn-link {
+	display: flex;
+	align-items: center;
+	padding: 0;
+	transition: all .3s ease;
+
+	&:focus,
+	&:hover {
+	  text-decoration: none;
+	}
+
+	.title {
+	  font-size: 18px;
+	  color: var(--primary-accent-color);
+	  transition: all .3s ease;
+	}
+
+	.icons {
+	  line-height: 1;
+	  padding-right: 20px;
+	  transition: all .3s ease;
+	  opacity: 1;
+	  position: relative;
+
+	  .crumina-icon {
+		height: 17px;
+		width: 17px;
+		fill: var(--primary-accent-color);
+		transform: rotate(0deg);
+	  }
+
+	  .active {
+		opacity: 0;
+		position: absolute;
+		left: 0;
+		transition: all .3s ease;
+		top: 5px;
+	  }
+	}
+
+	&.collapsed {
+
+	  .title {
+		color: var(--heading-color);
+	  }
+
+	  .crumina-icon {
+		fill: #9da7b3;
+		transform: rotate(90deg);
+
+		&.active {
+		  opacity: 1;
+		}
+	  }
+	}
+  }
+
+  & > .card {
+	position: relative;
+	background-color: var(--white-color);
+	border-radius: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 10px 20px 0 rgba(144, 146, 136, 0.2);
+	border: none;
+  }
+
+  .card-body {
+	position: relative;
+	padding: 20px 70px;
+	transition: all .3s ease;
+	font-size: 16px;
+
+	&:before {
+	  content: '';
+	  display: block;
+	  height: calc(100% - 40px);
+	  width: 3px;
+	  background-color: var(--primary-accent-color);
+	  position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+	  left: 37px;
+	}
+  }
+}
+
+/*================= Responsive Mode ============*/
+
+@media (max-width: 1024px) {
+
+}

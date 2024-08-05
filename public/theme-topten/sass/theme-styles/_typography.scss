@@ -1,0 +1,150 @@
+/*------------- #TYPOGRAPHY --------------*/
+
+
+h1, .h1 {
+  margin-bottom:  var(--h-margin-bottom);
+  font-weight: var(--h-font-weight);
+  color: var(--heading-color);
+  line-height: 1.15em;
+  font-family: var(--h-family-body);
+
+  @include responsive-font-size($h1-fontsize);
+
+  a {
+    color: inherit;
+  }
+}
+
+h2, .h2 {
+  margin-bottom:  var(--h-margin-bottom);
+  line-height: 1.2em;
+  font-weight: var(--h-font-weight);
+  color: var(--heading-color);
+  font-family: var(--h-family-body);
+
+  @include responsive-font-size($h2-fontsize);
+
+   a {
+    color: inherit;
+  }
+}
+
+h3, .h3 {
+  margin-bottom:  var(--h-margin-bottom);
+  line-height: 1.25em;
+  font-weight: var(--h-font-weight);
+  color: var(--heading-color);
+  font-family: var(--h-family-body);
+
+  @include responsive-font-size($h3-fontsize);
+
+  a {
+    color: inherit;
+  }
+}
+
+h4, .h4 {
+  margin-bottom:  var(--h-margin-bottom);
+  line-height: 1.3em;
+  font-weight: var(--h-font-weight);
+  color: var(--heading-color);
+  font-family: var(--h-family-body);
+
+  @include responsive-font-size($h4-fontsize);
+
+  a {
+    color: inherit;
+  }
+}
+
+h5, .h5 {
+  margin-bottom:  var(--h-margin-bottom);
+  line-height: 1.3em;
+  font-weight: var(--h-font-weight);
+  color: var(--heading-color);
+  font-family: var(--h-family-body);
+
+  @include responsive-font-size($h5-fontsize);
+
+  a {
+    color: inherit;
+  }
+}
+
+h6, .h6 {
+  margin-bottom:  var(--h-margin-bottom);
+  line-height: 1.5;
+  font-weight: var(--h-font-weight);
+  color: var(--heading-color);
+  font-family: var(--h-family-body);
+
+  @include responsive-font-size($h6-fontsize);
+
+  a {
+    color: inherit;
+  }
+}
+dl {
+  margin-bottom: 24px;
+}
+
+dl dt {
+  margin-bottom: 5px;
+  color: #777;
+  font-weight: bold;
+}
+
+dl dd {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+abbr {
+  cursor: help;
+  border-color: $body-font-color;
+}
+
+hr {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 10px;
+  margin: 0 auto;
+}
+
+/*------------- #Styles for First-Letter --------------*/
+
+.first-letter--under-text {
+  padding: 30px 0 0 20px;
+  position: relative;
+
+  & span:first-of-type {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: .1;
+  }
+}
+
+.first-letter--before-text span:first-of-type {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1;
+  margin-right: 30px;
+  color: var(--primary-accent-color);
+  float: left;
+}
+
+
+/*------------- Responsive Mode --------------*/
+
+
+@media (max-width: 768px) {
+  .first-letter--before-text span:first-of-type {
+    font-size: 60px;
+    margin-right: 20px;
+  }
+}

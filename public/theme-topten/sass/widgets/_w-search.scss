@@ -1,0 +1,27 @@
+/*------------- #W-SEARCH --------------*/
+
+
+.w-search {
+  position: relative;
+
+  input {
+	&:focus + button .crumina-icon {
+	  fill: var(--primary-accent-color);
+	  color: var(--primary-accent-color);
+	}
+  }
+
+  button {
+	height: 100%;
+	width: 60px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	fill: #949fac;
+
+	&:hover {
+	  fill: var(--primary-accent-color);
+	}
+  }
+}

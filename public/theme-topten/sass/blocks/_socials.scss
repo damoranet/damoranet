@@ -1,0 +1,27 @@
+/*------------- #SOCIALS --------------*/
+
+
+.socials {
+  .social-item {
+	margin-right: 20px;
+	width: 36px;
+
+	&:last-child {
+	  margin-right: 0;
+	}
+
+	&:hover {
+	  opacity: .7;
+	}
+  }
+}
+
+/*------------- Responsive Mode --------------*/
+
+
+@media (max-width: 768px) {
+  .socials .social-item {
+	width: 20px;
+	margin-right: 15px;
+  }
+}

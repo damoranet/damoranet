@@ -1,0 +1,32 @@
+/*------------- SUBSCRIBE SECTION --------------*/
+
+
+.subscribe-form {
+  margin-top: 30px;
+
+  input {
+    &:active,
+    &:focus {
+      border-color: var(--white-color);
+    }
+  }
+}
+
+.subscribe-title {
+  margin-bottom: 5px;
+}
+
+/*------------- Responsive Mode --------------*/
+
+@media (max-width: 1200px) {
+  .subscribe-form {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .subscribe-form {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+}

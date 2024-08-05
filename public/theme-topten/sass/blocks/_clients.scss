@@ -1,0 +1,99 @@
+/*------------- #CLIENTS --------------*/
+
+
+.client-items-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.clients-item {
+  display: block;
+  filter: grayscale(1);
+  transition: all .3s ease;
+  text-align: center;
+
+  &:hover {
+	filter: grayscale(0);
+  }
+
+  &:last-child {
+	margin-right: 0;
+  }
+}
+
+/*------------- #CRUMINA CLIENTS --------------*/
+
+.crumina-client-item {
+  padding: 60px;
+  background-color: var(--grey-themes);
+  transition: all .3s ease;
+  text-align: center;
+
+  &:hover {
+	background-color: var(--primary-accent-color);
+	box-shadow: var(--theme-shadow);
+
+	.crumina-button {
+	  background-color: var(--dark-themes);
+	  color: var(--white-color);
+	  border-color: var(--dark-themes);
+	}
+
+	.crumina-icon {
+	  fill: var(--white-color);
+	}
+
+	.client-item-text {
+	  color: var(--white-color);
+	}
+  }
+
+  .client-item-title {
+	font-size: 24px;
+	color: var(--heading-color);
+  }
+
+  .client-item-text {
+	font-size: 16px;
+	transition: all .3s ease;
+  }
+
+  .crumina-icon {
+	fill: #949fac;
+  }
+
+  & > * {
+	margin-bottom: 30px;
+
+	&:last-child {
+	  margin-bottom: 0;
+	}
+  }
+}
+
+/*------------- Responsive Mode --------------*/
+
+@media (max-width: 992px) {
+
+  .crumina-client-item {
+	padding: 20px;
+  }
+
+  .crumina-client-item > * {
+	margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .client-items-wrapper {
+	flex-direction: column;
+	justify-content: space-between;
+  }
+
+  .clients-item {
+	margin-bottom: 20px;
+	margin-right: 0;
+	text-align: center;
+  }
+}

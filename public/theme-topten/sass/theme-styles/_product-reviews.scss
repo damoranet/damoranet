@@ -1,0 +1,56 @@
+/*------------- #PRODUCT REVIEWS --------------*/
+
+
+.product-review-item {
+  display: flex;
+  padding: 30px 0;
+  border-bottom: 1px solid #d6d7d3;
+
+  &:first-child {
+	padding-top: 0;
+  }
+
+  .author-avatar {
+	width: 70px;
+	height: 70px;
+	min-width: 70px;
+	min-height: 70px;
+	margin-right: 30px;
+	border-radius: 100%;
+	background-color: var(--grey-themes);
+  }
+
+  .rait-stars {
+	margin-bottom: 20px;
+  }
+
+  .review-author-name {
+	color: var(--heading-color);
+	margin-right: 20px;
+
+	&:hover {
+	  color: var(--primary-accent-color);
+	}
+  }
+
+  .author-time-wrap {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 15px;
+  }
+}
+
+/*------------- Responsive Mode --------------*/
+
+@media (max-width: 768px) {
+  .product-review-item {
+	flex-direction: column;
+	padding: 20px 0;
+  }
+
+  .product-review-item .author-avatar {
+	margin-right: 0;
+	margin-bottom: 20px;
+  }
+}

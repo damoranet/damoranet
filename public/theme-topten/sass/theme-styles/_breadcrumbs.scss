@@ -1,0 +1,31 @@
+/*------------- #BREADCRUMBS --------------*/
+
+
+.breadcrumbs {
+  padding-left: 0;
+  margin-bottom: 0;
+  color: var(--white-color);
+
+  .breadcrumbs-item {
+	display: inline-flex;
+	align-items: center;
+
+	.crumina-icon {
+	  color: inherit;
+	  margin: 0 15px;
+	}
+
+	a {
+	  text-decoration: underline;
+	  color: inherit;
+
+	  &:hover {
+		text-decoration-color: transparent;
+	  }
+	}
+  }
+
+  .trail-end {
+	color: inherit;
+  }
+}

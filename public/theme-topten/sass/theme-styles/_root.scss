@@ -1,0 +1,49 @@
+/*------------- #ROOT --------------*/
+
+
+:root {
+  //Font Family
+  --font-family-body: #{inspect($body-font-family)};
+  --h-family-body: #{inspect($h-font-family)};
+
+
+  --body-font-size: #{inspect($body-font-size)};
+  --body-font-weight: #{inspect($body-font-weight)};
+  --base-line-height: #{inspect($base-line-height)};
+  --body-letter-spacing: #{inspect($body-letter-spacing)};
+
+  //Colors
+  --primary-accent-color: #{inspect($primary-accent-color)};
+  --secondary-accent-color: #{inspect($secondary-accent-color)};
+  --body-font-color: #{inspect($body-font-color)};
+  --white-color: #{inspect($white-color)};
+  --heading-color: #{inspect($heading-color)};
+  --link-color: #{inspect($global-link-color)};
+  --red-themes: #{inspect($red-themes)};
+  --green-themes: #{inspect($green-themes)};
+  --grey-themes: #{inspect($grey-themes)};
+  --dark-themes: #{inspect($dark-themes)};
+  --yellow-themes: #{inspect($yellow-themes)};
+  --brown-themes: #{inspect($brown-themes)};
+  --pink-themes: #{inspect($pink-themes)};
+  --blue-themes: #{inspect($blue-themes)};
+  --icon-color: #{inspect($icon-color)};
+  --border-grey-color: #{inspect($border-grey-color)};
+  --border-dark-color: #{inspect($border-dark-color)};
+  --input-dark: #{inspect($input-dark)};
+  --theme-shadow: #{inspect($theme-shadow)};
+
+  //Heading Font-size
+  --h1-font-size: #{inspect($h1-fontsize)};
+  --h2-font-size: #{inspect($h2-fontsize)};
+  --h3-font-size: #{inspect($h3-fontsize)};
+  --h4-font-size: #{inspect($h4-fontsize)};
+  --h5-font-size: #{inspect($h5-fontsize)};
+  --h6-font-size: #{inspect($h6-fontsize)};
+
+  --h-margin-bottom: #{inspect($h-margin-bottom)};
+  --h-font-weight: #{inspect($h-font-weight)};
+
+  //Forms
+
+}

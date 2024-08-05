@@ -1,0 +1,50 @@
+/*------------- #MASONRY --------------*/
+
+
+.grid {
+  display: block;
+
+  & > .grid-item {
+	flex: unset;
+	max-width: unset;
+	display: block;
+	margin-bottom: 30px;
+  }
+}
+
+.row-masonry {
+  & > * {
+	margin-bottom: 30px;
+  }
+}
+
+.row-masonry--col-2 {
+  .grid-sizer,
+  .grid-item {
+	width: 50%;
+  }
+}
+
+.row-masonry--col-3 {
+  .grid-item {
+	width: 33.333%;
+  }
+}
+
+
+/*------------- Responsive Mode --------------*/
+
+@media (max-width: 768px) {
+  .row-masonry--col-2 {
+	.grid-sizer,
+	.grid-item {
+	  width: 100%;
+	}
+  }
+
+  .row-masonry--col-3 {
+	.grid-item {
+	  width: 100%;
+	}
+  }
+}

@@ -1,0 +1,220 @@
+/*------------- #SHOP --------------*/
+
+
+.sorting-products-wrap {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 60px;
+
+  .sorting-products-text {
+	font-size: 16px;
+	color: var(--heading-color);
+	margin-right: 30px;
+  }
+}
+
+
+.onsale {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  min-width: 70px;
+  min-height: 70px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 100%;
+  color: var(--white-color);
+  background-color: var(--red-themes);
+}
+
+.crumina-product-item {
+  padding: 60px;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: var(--grey-themes);
+
+  .product-item-content {
+	position: relative;
+  }
+
+  .product-item-thumb {
+	margin-bottom: 40px;
+  }
+
+  .product-category {
+	margin-bottom: 15px;
+
+	a {
+	  font-size: 16px;
+	  color: var(--body-font-color);
+
+	  &:hover {
+		color: var(--primary-accent-color);
+	  }
+	}
+  }
+}
+
+.price {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--green-themes);
+
+  ins {
+	text-decoration: none;
+  }
+
+  del {
+	text-decoration-color: #949fac;
+
+	span {
+	  font-size: 16px;
+	  font-weight: 400;
+	  color: #949fac;
+	}
+  }
+}
+
+
+/*------------- #PRODUCT DETAILS --------------*/
+
+.product-details-gallery-item {
+  display: inline-flex;
+  position: relative;
+
+  .onsale {
+	top: 40px;
+	right: auto;
+	left: -40px;
+  }
+}
+
+.product-details-content {
+  .price {
+	margin-right: 30px;
+	margin-bottom: 0;
+  }
+
+  .reviews-link {
+	font-size: 14px;
+  }
+
+  .product-description {
+	margin-bottom: 30px;
+  }
+
+  .sorting-products-wrap {
+	margin-bottom: 30px;
+  }
+
+  .quantity-btn-wrap {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+
+	.quantity {
+	  margin-right: 30px;
+	}
+  }
+
+  .product-details-add-info {
+	padding-left: 0;
+	list-style: none;
+
+	.add-info-item {
+	  margin-bottom: 15px;
+
+	  a {
+		display: inline-block;
+	  }
+
+	  &:last-child {
+		margin-bottom: 0;
+	  }
+	}
+  }
+}
+
+.price-review-wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+
+  .rait-stars {
+	margin-right: 10px;
+  }
+}
+
+.woocommerce table.shop_attributes,
+.woocommerce table.shop_attributes th,
+.woocommerce table.shop_attributes td {
+  border: none;
+}
+
+.woocommerce table.shop_attributes tbody tr {
+  border-bottom: 1px solid #d6d7d3;
+
+  &:last-child {
+	border-bottom: none;
+  }
+}
+
+.woocommerce table.shop_attributes th {
+  color: var(--dark-themes);
+}
+
+.woocommerce table.shop_attributes td {
+  font-style: normal;
+}
+
+.woocommerce table.shop_attributes tr:nth-child(2n) td,
+.woocommerce table.shop_attributes tr:nth-child(2n) th {
+  background: transparent;
+}
+
+.woocommerce table.shop_attributes td {
+  padding: 8px;
+}
+
+
+/*------------- Responsive Mode --------------*/
+
+
+@media (max-width: 991px) {
+  .crumina-product-item {
+	padding: 30px;
+  }
+
+  .product-item-thumb img {
+	max-width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .product-details-content .product-description {
+	margin-bottom: 10px;
+  }
+
+  .product-details-gallery-item .onsale {
+	left: -20px;
+  }
+
+  .onsale {
+	min-width: 40px;
+	min-height: 40px;
+  }
+}
+
+@media (max-width: 470px) {
+  .sorting-products-wrap {
+	font-size: 10px;
+  }
+}

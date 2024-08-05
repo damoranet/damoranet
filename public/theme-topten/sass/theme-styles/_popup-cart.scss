@@ -1,0 +1,97 @@
+/*------------- #POPUP CART --------------*/
+
+
+.popup-cart {
+  width: 370px;
+  padding: 0;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  border: none;
+  box-shadow: 0 10px 20px 0 rgba(144, 146, 136, 0.2);
+  overflow: hidden;
+
+  .popup-cart-content {
+	padding: 40px;
+  }
+
+  .subtitle {
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: var(--body-font-color);
+  }
+
+  .cart-popup-total {
+	padding: 30px 40px 40px;
+	background-color: var(--grey-themes);
+	overflow: hidden;
+	width: 100%;
+
+	.cart-total-text {
+	  margin-bottom: 30px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-between;
+
+	  .title {
+		font-size: 16px;
+		margin-bottom: 0;
+	  }
+
+	  .total-price {
+		color: var(--primary-accent-color);
+		font-size: 18px;
+		font-weight: 700;
+	  }
+	}
+
+	.crumina-button {
+	  width: 50%;
+	  float: left;
+	  border-radius: 50px 0 0 50px;
+	  padding: .688rem 1rem;
+
+	  &:last-child {
+		border-radius: 0 50px 50px 0;
+	  }
+
+	  + .btn {
+		margin-left: 0;
+	  }
+
+	  &:after {
+		display: none;
+	  }
+	}
+  }
+
+  &.with-products {
+	.popup-cart-content {
+	  padding-bottom: 20px;
+	}
+  }
+}
+
+.cart-popup-item {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border-grey-color);
+
+  &:last-child {
+	border-bottom: none;
+  }
+
+  .cart-popup-item-thumb {
+	margin-right: 30px;
+  }
+
+  .cart-popup-item-title {
+	font-size: 18px;
+	margin-bottom: 15px;
+  }
+
+  .price {
+	font-size: 18px;
+	font-weight: 700;
+  }
+}

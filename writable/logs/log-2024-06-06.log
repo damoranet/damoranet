@@ -1,0 +1,1414 @@
+CRITICAL - 2024-06-06 00:23:48 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: contacto]
+in APPPATH\Views\paginas\contacto.php on line 9.
+ 1 APPPATH\Views\paginas\contacto.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\contacto.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/contacto', [], true)
+ 5 APPPATH\Controllers\Cargar.php(15): view('paginas/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index('contacto')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:26:11 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: diseno-web]
+in APPPATH\Views\paginas\diseno-web.php on line 10.
+ 1 APPPATH\Views\paginas\diseno-web.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\diseno-web.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Views\\paginas\\diseno-web.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/diseno-web', [], true)
+ 5 APPPATH\Controllers\Cargar.php(15): view('paginas/diseno-web')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index('diseno-web')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:35:25 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: GET, Route: publicidad-digital]
+in APPPATH\Controllers\Paginas.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->index('publicidad-digital')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:35:32 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Paginas.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->index('inicio')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:43:28 --> ArgumentCountError: Too few arguments to function App\Controllers\Cargar::index(), 0 passed in C:\xampp\htdocs\damoranet-ci4\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:49:19 --> ArgumentCountError: Too few arguments to function App\Controllers\Cargar::index(), 0 passed in C:\xampp\htdocs\damoranet-ci4\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:49:59 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: inicio]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:50:03 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: nosotros]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:50:29 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: nosotros]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:50:31 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: nosotros]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:50:34 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:50:45 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, '')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:50:49 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: inicio]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:24 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: inicio]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:28 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/01-slide.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', '01-slide.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon35.png]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon35.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon34.png]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon34.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon36.png]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon36.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon37.png]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon37.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon38.png]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon38.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/05-slide.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', '05-slide.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon29.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon29.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon28.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon28.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon25.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon25.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon26.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon26.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon27.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon27.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon30.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon30.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/04-slide.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', '04-slide.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/07-we-offer.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', '07-we-offer.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/03-slide.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', '03-slide.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:50 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/02-slide.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', '02-slide.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/01-slide.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', '01-slide.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon38.png]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon38.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon35.png]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon35.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon34.png]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon34.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon37.png]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon37.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon36.png]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon36.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/05-slide.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', '05-slide.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon25.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon25.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon27.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon27.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon28.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon28.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon29.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon29.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon26.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon26.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/icon30.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', 'icon30.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/07-we-offer.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', '07-we-offer.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/04-slide.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', '04-slide.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/03-slide.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', '03-slide.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:52 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: public/theme-topten/img/demo-content/icons/02-slide.svg]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null, 'theme-topten', 'img', 'demo-content', 'icons', '02-slide.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:51:53 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 17
+[Method: GET, Route: nosotros]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(17): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:54:43 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-06 00:54:48 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Cargar.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-06 00:58:04 --> Error: Undefined constant "nosotros"
+[Method: GET, Route: inicio]
+in APPPATH\Views\paginas\inicio.php on line 46.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/inicio', [], true)
+ 4 APPPATH\Controllers\Cargar.php(18): view('paginas/inicio')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index('inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 00:58:09 --> Error: Undefined constant "nosotros"
+[Method: GET, Route: /]
+in APPPATH\Views\paginas\inicio.php on line 46.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/inicio', [], true)
+ 4 APPPATH\Controllers\Cargar.php(18): view('paginas/inicio')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index('', '')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 02:20:27 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: GET, Route: blog/marketing-digital-no-es-redes-sociales]
+in APPPATH\Controllers\Paginas.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Paginas->index('blog', '', 'marketing-digital-no-es-redes-sociales')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paginas))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 02:40:47 --> ErrorException: Array to string conversion
+[Method: GET, Route: carpeta1/algo-mas/algo]
+in APPPATH\Controllers\Pruebas.php on line 38.
+ 1 APPPATH\Controllers\Pruebas.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 02:40:54 --> ErrorException: Array to string conversion
+[Method: GET, Route: carpeta1/algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 38.
+ 1 APPPATH\Controllers\Pruebas.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 02:41:25 --> ErrorException: Array to string conversion
+[Method: GET, Route: carpeta1/algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 38.
+ 1 APPPATH\Controllers\Pruebas.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 02:44:57 --> ErrorException: Array to string conversion
+[Method: GET, Route: carpeta1/algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 37.
+ 1 APPPATH\Controllers\Pruebas.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:16:33 --> ErrorException: Array to string conversion
+[Method: GET, Route: carpeta1/carpeta2/carpeta3/algo-mas]
+in APPPATH\Controllers\Cargar.php on line 27.
+ 1 APPPATH\Controllers\Cargar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:17:00 --> ErrorException: Array to string conversion
+[Method: GET, Route: blog/marketing-digital-no-es-redes-sociales]
+in APPPATH\Controllers\Cargar.php on line 27.
+ 1 APPPATH\Controllers\Cargar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:17:20 --> ErrorException: Array to string conversion
+[Method: GET, Route: blog/marketing-digital-no-es-redes-sociales]
+in APPPATH\Controllers\Cargar.php on line 27.
+ 1 APPPATH\Controllers\Cargar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:22:15 --> ErrorException: Array to string conversion
+[Method: GET, Route: blog/marketing-digital-no-es-redes-sociales]
+in APPPATH\Controllers\Cargar.php on line 23.
+ 1 APPPATH\Controllers\Cargar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:22:23 --> ErrorException: Undefined variable $archivo
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 52.
+ 1 APPPATH\Controllers\Cargar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $archivo', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:22:27 --> ErrorException: Undefined variable $archivo
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 52.
+ 1 APPPATH\Controllers\Cargar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $archivo', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:23:31 --> ErrorException: Undefined variable $archivo
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 52.
+ 1 APPPATH\Controllers\Cargar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $archivo', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:23:35 --> ErrorException: Undefined variable $archivo
+[Method: GET, Route: algo-mas]
+in APPPATH\Controllers\Cargar.php on line 52.
+ 1 APPPATH\Controllers\Cargar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $archivo', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:25:14 --> ErrorException: Undefined variable $archivo
+[Method: GET, Route: algo-mas]
+in APPPATH\Controllers\Cargar.php on line 52.
+ 1 APPPATH\Controllers\Cargar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $archivo', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:25:18 --> ErrorException: Undefined variable $archivo
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 52.
+ 1 APPPATH\Controllers\Cargar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $archivo', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:25:51 --> ParseError: syntax error, unexpected token "echo", expecting "function" or "const"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cargar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cargar')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Cargar', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:25:56 --> ParseError: syntax error, unexpected token "echo", expecting "function" or "const"
+[Method: GET, Route: sfs]
+in APPPATH\Controllers\Cargar.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cargar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cargar')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Cargar', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:26:27 --> ErrorException: Undefined variable $archivo
+[Method: GET, Route: sfs]
+in APPPATH\Controllers\Cargar.php on line 65.
+ 1 APPPATH\Controllers\Cargar.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $archivo', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 65)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cargar')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cargar')
+ 6 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Cargar', true)
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:27:11 --> ErrorException: Undefined variable $archivo
+[Method: GET, Route: sfs]
+in APPPATH\Controllers\Cargar.php on line 50.
+ 1 APPPATH\Controllers\Cargar.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $archivo', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:30:49 --> ParseError: syntax error, unexpected token "echo", expecting ";"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cargar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cargar')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Cargar', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:31:43 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 39.
+ 1 APPPATH\Controllers\Cargar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:31:45 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 39.
+ 1 APPPATH\Controllers\Cargar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:31:48 --> ErrorException: Array to string conversion
+[Method: GET, Route: sfasfgs]
+in APPPATH\Controllers\Cargar.php on line 39.
+ 1 APPPATH\Controllers\Cargar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:32:32 --> ParseError: syntax error, unexpected token "echo", expecting ";"
+[Method: GET, Route: sfasfgs]
+in APPPATH\Controllers\Cargar.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cargar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cargar')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Cargar', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:32:46 --> ErrorException: Array to string conversion
+[Method: GET, Route: sfasfgs]
+in APPPATH\Controllers\Cargar.php on line 39.
+ 1 APPPATH\Controllers\Cargar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:33:33 --> ErrorException: Array to string conversion
+[Method: GET, Route: blog/marketing-digital-no-es-redes-sociales]
+in APPPATH\Controllers\Cargar.php on line 27.
+ 1 APPPATH\Controllers\Cargar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:34:48 --> ErrorException: Array to string conversion
+[Method: GET, Route: blog/marketing-digital-no-es-redes-sociales]
+in APPPATH\Controllers\Pruebas.php on line 25.
+ 1 APPPATH\Controllers\Pruebas.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:35:19 --> ErrorException: Array to string conversion
+[Method: GET, Route: blog/marketing-digital-no-es-redes-sociales]
+in APPPATH\Controllers\Pruebas.php on line 25.
+ 1 APPPATH\Controllers\Pruebas.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:35:33 --> ErrorException: Array to string conversion
+[Method: GET, Route: algo-mas/mas]
+in APPPATH\Controllers\Pruebas.php on line 25.
+ 1 APPPATH\Controllers\Pruebas.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:35:47 --> TypeError: Unsupported operand types: array + string
+[Method: GET, Route: algo-mas/mas]
+in APPPATH\Controllers\Pruebas.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:35:50 --> TypeError: Unsupported operand types: array + string
+[Method: GET, Route: algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:35:54 --> TypeError: Unsupported operand types: array + string
+[Method: GET, Route: algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:37:03 --> ErrorException: Array to string conversion
+[Method: GET, Route: algo-mas/mes]
+in APPPATH\Controllers\Pruebas.php on line 30.
+ 1 APPPATH\Controllers\Pruebas.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:39:19 --> ErrorException: Array to string conversion
+[Method: GET, Route: algo-mas/mes]
+in APPPATH\Controllers\Pruebas.php on line 30.
+ 1 APPPATH\Controllers\Pruebas.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:40:15 --> ErrorException: Array to string conversion
+[Method: GET, Route: algo-mas/mes]
+in APPPATH\Controllers\Pruebas.php on line 49.
+ 1 APPPATH\Controllers\Pruebas.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:40:18 --> ErrorException: Undefined variable $pagina
+[Method: GET, Route: /]
+in APPPATH\Controllers\Pruebas.php on line 52.
+ 1 APPPATH\Controllers\Pruebas.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pagina', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:41:50 --> ErrorException: Array to string conversion
+[Method: GET, Route: algo-mas/mas]
+in APPPATH\Controllers\Pruebas.php on line 28.
+ 1 APPPATH\Controllers\Pruebas.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:42:19 --> ErrorException: Array to string conversion
+[Method: GET, Route: algo-mas/mas]
+in APPPATH\Controllers\Pruebas.php on line 28.
+ 1 APPPATH\Controllers\Pruebas.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:43:54 --> ErrorException: Array to string conversion
+[Method: GET, Route: algo-mas/mas]
+in APPPATH\Controllers\Cargar.php on line 27.
+ 1 APPPATH\Controllers\Cargar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 03:44:08 --> ErrorException: Array to string conversion
+[Method: GET, Route: blog/marketing-digital-no-es-redes-sociales]
+in APPPATH\Controllers\Cargar.php on line 27.
+ 1 APPPATH\Controllers\Cargar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 12:16:44 --> ErrorException: Array to string conversion
+[Method: GET, Route: blog/marketing-digital-no-es-redes-sociales]
+in APPPATH\Controllers\Cargar.php on line 27.
+ 1 APPPATH\Controllers\Cargar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:14:52 --> ArgumentCountError: Too few arguments to function App\Controllers\Carga_Pagina::index(), 0 passed in C:\xampp\htdocs\damoranet-ci4\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: /]
+in APPPATH\Controllers\Carga_pagina.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carga_Pagina->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carga_Pagina))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:14:54 --> ArgumentCountError: Too few arguments to function App\Controllers\Carga_Pagina::index(), 0 passed in C:\xampp\htdocs\damoranet-ci4\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: contacto]
+in APPPATH\Controllers\Carga_pagina.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carga_Pagina->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carga_Pagina))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:18:37 --> ErrorException: Only variables should be passed by reference
+[Method: GET, Route: contacto]
+in APPPATH\Controllers\Carga_pagina.php on line 11.
+ 1 APPPATH\Controllers\Carga_pagina.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Carga_pagina.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carga_Pagina->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carga_Pagina))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:18:41 --> ErrorException: Only variables should be passed by reference
+[Method: GET, Route: /]
+in APPPATH\Controllers\Carga_pagina.php on line 11.
+ 1 APPPATH\Controllers\Carga_pagina.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Carga_pagina.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carga_Pagina->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carga_Pagina))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:18:44 --> ErrorException: Only variables should be passed by reference
+[Method: GET, Route: /]
+in APPPATH\Controllers\Carga_pagina.php on line 11.
+ 1 APPPATH\Controllers\Carga_pagina.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Carga_pagina.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Carga_Pagina->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carga_Pagina))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:24:46 --> ErrorException: Array to string conversion
+[Method: GET, Route: carpeta1/carpeta2/algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 28.
+ 1 APPPATH\Controllers\Pruebas.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:26:02 --> ErrorException: Array to string conversion
+[Method: GET, Route: carpeta1/carpeta2/algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 28.
+ 1 APPPATH\Controllers\Pruebas.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:26:10 --> ErrorException: Array to string conversion
+[Method: GET, Route: carpeta1/carpeta2/algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 28.
+ 1 APPPATH\Controllers\Pruebas.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:30:35 --> ErrorException: Array to string conversion
+[Method: GET, Route: carpeta1/carpeta2/algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 32.
+ 1 APPPATH\Controllers\Pruebas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:30:36 --> ErrorException: Array to string conversion
+[Method: GET, Route: carpeta1/carpeta2/algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 32.
+ 1 APPPATH\Controllers\Pruebas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:30:37 --> ErrorException: Array to string conversion
+[Method: GET, Route: carpeta1/carpeta2/algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 32.
+ 1 APPPATH\Controllers\Pruebas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:31:12 --> ParseError: syntax error, unexpected token "echo"
+[Method: GET, Route: carpeta1/carpeta2/algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pruebas')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pruebas')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Pruebas', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:31:13 --> ParseError: syntax error, unexpected token "echo"
+[Method: GET, Route: carpeta1/carpeta2/algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pruebas')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pruebas')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Pruebas', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:38:16 --> ParseError: syntax error, unexpected token "else"
+[Method: GET, Route: carpeta1/carpeta2/algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pruebas')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pruebas')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Pruebas', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:52:12 --> ErrorException: Undefined variable $archivo
+[Method: GET, Route: carpeta1/carpeta2/algo-mas]
+in APPPATH\Controllers\Cargar.php on line 28.
+ 1 APPPATH\Controllers\Cargar.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $archivo', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:52:17 --> ErrorException: Undefined variable $archivo
+[Method: GET, Route: /]
+in APPPATH\Controllers\Cargar.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $archivo', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:52:23 --> ErrorException: Undefined variable $archivo
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Cargar.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $archivo', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 13:55:33 --> ErrorException: Undefined variable $archivo
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Cargar.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $archivo', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 14:02:06 --> ErrorException: Array to string conversion
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Pruebas.php on line 42.
+ 1 APPPATH\Controllers\Pruebas.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 14:03:09 --> ParseError: syntax error, unexpected token "echo"
+[Method: GET, Route: inicio]
+in APPPATH\Controllers\Pruebas.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pruebas')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pruebas')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Pruebas', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 14:05:08 --> ErrorException: Array to string conversion
+[Method: GET, Route: carpeta1/carpeta2/algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 43.
+ 1 APPPATH\Controllers\Pruebas.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Pruebas.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 14:05:23 --> ArgumentCountError: implode() expects at most 2 arguments, 3 given
+[Method: GET, Route: carpeta1/carpeta2/algo-mas]
+in APPPATH\Controllers\Pruebas.php on line 43.
+ 1 APPPATH\Controllers\Pruebas.php(43): implode('/', [...], '/')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pruebas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pruebas))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 14:09:25 --> ErrorException: Undefined variable $archivo
+[Method: GET, Route: carpeta1/carpeta2/algo-mas]
+in APPPATH\Controllers\Cargar.php on line 28.
+ 1 APPPATH\Controllers\Cargar.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $archivo', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 14:31:49 --> ErrorException: Undefined variable $archivo
+[Method: GET, Route: carpeta1/carpeta2/algo-mas]
+in APPPATH\Controllers\Cargar.php on line 28.
+ 1 APPPATH\Controllers\Cargar.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $archivo', 'C:\\xampp\\htdocs\\damoranet-ci4\\app\\Controllers\\Cargar.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 14:56:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "nosotros.php"
+[Method: GET, Route: nosotros]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nosotros.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nosotros', [], true)
+ 3 APPPATH\Controllers\Cargar.php(24): view('nosotros')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->view('nosotros')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 14:58:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "inicio.php"
+[Method: GET, Route: inicio]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\Cargar.php(25): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->view('inicio')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 14:59:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "inicio.php"
+[Method: GET, Route: inicio]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('inicio', [], true)
+ 3 APPPATH\Controllers\Cargar.php(25): view('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->view('inicio')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 15:01:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Paginas/blog/marketing-digital-no-es-redes-sociales.php"
+[Method: GET, Route: blog/marketing-digital-no-es-redes-sociales]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Paginas/blog/marketing-digital-no-es-redes-sociales.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Paginas/blog/marketing-digital-no-es-redes-sociales', [], true)
+ 3 APPPATH\Controllers\Cargar.php(25): view('Paginas/blog/marketing-digital-no-es-redes-sociales')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->view('blog', 'marketing-digital-no-es-redes-sociales')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 18:25:58 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 32
+[Method: GET, Route: nosotros]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(32): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->view(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 18:26:03 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 32
+[Method: GET, Route: nosotros]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(32): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->view(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 18:30:11 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 32
+[Method: GET, Route: nosotros]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(32): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->view(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 18:30:12 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 32
+[Method: GET, Route: nosotros]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(32): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->view(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 18:30:21 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 32
+[Method: GET, Route: nosotros]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(32): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->view(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 18:31:51 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 32
+[Method: GET, Route: blog-indice]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(32): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->view(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 18:32:07 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 32
+[Method: GET, Route: blog-indice]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(32): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->view(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 18:34:49 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 32
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(32): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->view(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 18:34:55 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 32
+[Method: GET, Route: inicio]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(32): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->view(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 18:42:47 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 32
+[Method: GET, Route: inicio]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(32): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->view(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 18:43:03 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 32
+[Method: GET, Route: nosotros]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(32): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->view(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 18:44:18 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 32
+[Method: GET, Route: nosotros]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(32): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->vista(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 18:44:22 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 32
+[Method: GET, Route: nosotros]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(32): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->vista(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 19:15:15 --> TypeError: CodeIgniter\Exceptions\PageNotFoundException::__construct(): Argument #1 ($message) must be of type string, null given, called in C:\xampp\htdocs\damoranet-ci4\app\Controllers\Cargar.php on line 32
+[Method: GET, Route: inicio]
+in SYSTEMPATH\Exceptions\DebugTraceableTrait.php on line 30.
+ 1 APPPATH\Controllers\Cargar.php(32): CodeIgniter\Exceptions\PageNotFoundException->__construct(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->vista(null)
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 19:18:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "paginas/.php"
+[Method: GET, Route: inicio]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('paginas/.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/', [], true)
+ 3 APPPATH\Controllers\Cargar.php(37): view('paginas/')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->vista(null)
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-06 19:18:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "paginas/.php"
+[Method: GET, Route: inicio]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('paginas/.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('paginas/', [], true)
+ 3 APPPATH\Controllers\Cargar.php(37): view('paginas/')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cargar->vista(null)
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cargar))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
