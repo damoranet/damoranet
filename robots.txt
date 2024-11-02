@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemap: https://damoranet.com/sitemap.xml

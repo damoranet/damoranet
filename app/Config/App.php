@@ -16,11 +16,9 @@ class App extends BaseConfig
      *
      * E.g., http://example.com/
      */
-    public string $baseURL = 'http://localhost/damoranet-ci4/public/';
-    //$config['base_url'] = 'http://damoranet.us-east-1.elasticbeanstalk.com/';
-    //$this->config->item('base_url', 'http://localhost/damoranet');
-    //$config['base_url'] = 'http://localhost/damoranet';
-    //$config['base_url'] = 'https://damoranet.com//';
+    //public string $baseURL = 'http://localhost/damoranet.com/';
+    public string $baseURL = 'http://damoranet.us-east-1.elasticbeanstalk.com/';
+    //public string $baseURL = 'https://damoranet.com/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
