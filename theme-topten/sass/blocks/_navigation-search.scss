@@ -1,0 +1,13 @@
+/*------------- #NAVIGATION-SEARCH-POPUP --------------*/
+
+
+.navigation-search {
+  cursor: pointer;
+  position: relative;
+
+  &:hover {
+	.crumina-icon {
+	  fill: var(--primary-accent-color);
+	}
+  }
+}

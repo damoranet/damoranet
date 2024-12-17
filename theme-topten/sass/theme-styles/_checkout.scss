@@ -1,0 +1,89 @@
+/*------------- #CHECKOUT --------------*/
+
+
+.checkout-dropdown {
+  transition: all .3s ease;
+  border-bottom: 1px solid #d9dfe7;
+}
+
+.checkout-dropdown-item {
+  margin-bottom: 40px;
+
+  .helped,
+  .showlogin {
+	font-weight: 400;
+	text-decoration: underline;
+	text-decoration-color: var(--primary-accent-color);
+  }
+}
+
+.woocommerce-checkout-payment {
+  padding: 60px 30px;
+  background-color: var(--grey-themes);
+}
+
+.payment_methods {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 60px;
+
+  .crumina-radio label {
+	font-size: 24px;
+	color: var(--heading-color);
+  }
+
+  .crumina-radio label span {
+	top: 5px;
+  }
+
+  .crumina-radio label {
+	padding-left: 40px;
+  }
+
+  li {
+	margin-bottom: 30px;
+
+	&:last-child {
+	  margin-bottom: 0;
+	}
+  }
+
+  .pay-pal {
+	font-size: 16px;
+	text-decoration: underline;
+	text-decoration-color: var(--primary-accent-color);
+	margin-left: 20px;
+	display: inline-block;
+  }
+}
+
+.checkout-proceed {
+  padding-top: 60px;
+  border-top: 1px solid #d9dfe7;
+}
+
+
+/*------------- Responsive Mode --------------*/
+
+
+@media (max-width: 768px) {
+  .payment_methods .crumina-radio label {
+	font-size: 18px;
+  }
+
+  .payment_methods li {
+	margin-bottom: 15px;
+  }
+
+  .woocommerce-checkout-payment {
+	padding: 20px 15px;
+  }
+
+  .payment_methods {
+	margin-bottom: 20px;
+  }
+
+  .checkout-proceed {
+	padding-top: 20px;
+  }
+}

@@ -1,0 +1,287 @@
+/*------------- #PRICING-TABLES --------------*/
+
+
+.crumina-pricing-tables-item {
+  position: relative;
+  transition: all .3s ease;
+}
+
+.pricing-thumb {
+  transition: all .3s ease;
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.pricing-tables-position {
+  padding-left: 0;
+  list-style: none;
+
+  li {
+	margin-bottom: 10px;
+	color: 	var(--body-font-color);
+	transition: all .3s ease;
+
+	&:last-child {
+	  margin-bottom: 0;
+	}
+  }
+}
+
+.position-item {
+  span {
+	color: var(--heading-color);
+	transition: all .3s ease;
+
+	&.included {
+	  color: var(--green-themes);
+	}
+  }
+}
+
+.bg-layer {
+  transition: all .3s ease;
+}
+
+.main-pricing-content {
+  position: relative;
+}
+
+
+/*------------- #pricing tables standard --------------*/
+
+.pricing-tables-item-standard {
+  text-align: center;
+  background-color: var(--white-color);
+  border-radius: 5px;
+  padding: 40px;
+  border: 3px solid transparent;
+
+  &:hover {
+	box-shadow: var(--theme-shadow);
+	border-color: var(--primary-accent-color);
+  }
+
+  .rate {
+	margin-top: 0;
+	font-weight: 900;
+	color: var(--heading-color);
+	font-size: 36px;
+  }
+
+  .main-pricing-content {
+	& > * {
+	  margin-bottom: 30px;
+
+	  &:last-child {
+		margin-bottom: 0;
+	  }
+	}
+  }
+}
+
+/*------------- #PRICING Tables Triple --------------*/
+
+
+.pricing-tables-wrap {
+  border-radius: 5px;
+  padding: 0;
+  box-shadow: 0 10px 20px 0 rgba(144, 146, 136, 0.2);
+  overflow: hidden;
+
+  & > * {
+
+	&:last-child {
+	  .main-pricing-content {
+		border-right: none;
+	  }
+	}
+  }
+
+  .pricing-tables-item-standard {
+	padding: 60px 0;
+	border: none;
+	border-radius: 0;
+
+	.pricing-thumb {
+	  max-height: 0;
+	  visibility: hidden;
+	  opacity: 0;
+	  overflow: hidden;
+	}
+
+	&:after {
+	  content: '';
+	  display: block;
+	  height: 4px;
+	  width: calc(100% - 80px);
+	  background-color: var(--primary-accent-color);
+	  opacity: 0;
+	  position: absolute;
+	  bottom: 0;
+	  left: 40px;
+	  transition: all .3s ease;
+	}
+
+	&:hover {
+	  box-shadow: none;
+
+	  .pricing-thumb {
+		max-height: 100px;
+		visibility: visible;
+		opacity: 1;
+		overflow: visible;
+	  }
+
+	  &:after {
+		opacity: 1;
+	  }
+	}
+  }
+
+  .main-pricing-content {
+	padding: 0 60px;
+	border-right: 1px solid #d9dfe7;
+  }
+
+}
+
+
+/*------------- #PRICING Tables COLORED WRAP --------------*/
+
+.pricing-tables-wrap-colored {
+  border-radius: 5px;
+  padding: 0;
+  overflow: hidden;
+
+  & > * {
+
+	&:last-child {
+	  .main-pricing-content {
+		border-right: none;
+	  }
+	}
+  }
+
+  .pricing-tables-item-standard {
+	padding: 60px 0;
+	border: none;
+	border-radius: 0;
+
+	&:after {
+	  content: '';
+	  display: block;
+	  height: 4px;
+	  width: 100%;
+	  background-color: currentColor;
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	  transition: all .3s ease;
+	}
+
+	&:hover {
+	  box-shadow: none;
+
+	  .pricing-thumb {
+		max-height: 100px;
+		visibility: visible;
+		opacity: 1;
+		overflow: visible;
+	  }
+
+	  &:after {
+		height: 100%;
+	  }
+
+	  .crumina-button {
+		background-color: var(--dark-themes);
+	  }
+
+	  .rate {
+		color: var(--white-color);
+	  }
+
+	  .pricing-tables-position li {
+		color: var(--white-color);
+	  }
+
+	  .position-item span {
+		color: var(--white-color);
+	  }
+
+	  .position-item span.included {
+		color: var(--white-color);
+	  }
+	}
+  }
+
+  .main-pricing-content {
+	padding: 0 60px;
+	border-right: 1px solid #d9dfe7;
+	z-index: 10;
+  }
+}
+
+
+/*------------- #PRICING Tables COLORED --------------*/
+
+.pricing-tables-item-colored {
+  text-align: center;
+  border-radius: 5px;
+  padding: 40px;
+  background-color: currentColor;
+
+  .main-pricing-content {
+	& > * {
+	  margin-bottom: 30px;
+
+	  &:last-child {
+		margin-bottom: 0;
+	  }
+	}
+  }
+
+  .rate {
+	color: var(--white-color);
+  }
+
+  .pricing-tables-position li {
+	color: var(--white-color);
+  }
+
+  .position-item span {
+	color: var(--white-color);
+  }
+
+  .position-item span.included {
+	color: var(--white-color);
+  }
+
+  &:hover {
+
+	.bg-layer {
+	  transform: scale(1.05);
+	}
+  }
+
+  .bg-layer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	transform: scale(1);
+	background-color: currentColor;
+	border-radius: 5px;
+  }
+}
+
+
+/*------------- Responsive Mode --------------*/
+
+
+@media (max-width: 1200px) {
+
+}

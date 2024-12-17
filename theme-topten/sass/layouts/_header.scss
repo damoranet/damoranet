@@ -1,0 +1,174 @@
+/*------------- #HEADER --------------*/
+
+
+.site-header {
+  transition: all .3s ease;
+  color: var(--body-font-color);
+  background-color: var(--white-color);
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+
+  &.site-header--white {
+    background-color: var(--white-color);
+  }
+}
+
+.site-header--shadow {
+  box-shadow: 9px 9px 16px rgba(163,177,198,0.6), -9px -9px 16px  rgba(255,255,255, 0.5);
+}
+
+.header--absolute {
+  position: absolute;
+  z-index: 999;
+  background-color: transparent;
+}
+
+.navigation-additional-menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: inherit;
+
+  .crumina-icon {
+    fill: currentColor;
+  }
+
+  & > * {
+	margin-right: 20px;
+
+	&:last-child {
+	  margin-right: 0;
+	}
+  }
+}
+
+.link-modal-popup {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.menu-item-info {
+  padding: 10px 20px 5px 30px;
+  margin-bottom: 0;
+}
+
+.menu-item-info-title {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.menu-item-info-text {
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 1;
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+  color: var(--dark-themes);
+
+  img {
+    min-width: 70px;
+  }
+
+  &:hover {
+    color: var(--dark-themes);
+  }
+
+  &.c-white {
+    color: var(--white-color);
+  }
+}
+
+.logo-text {
+  margin-left: 15px;
+}
+
+.logo-title {
+  font-size: 28px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.logo-sub-title {
+  font-size: 10px;
+  text-transform: uppercase;
+  opacity: .7;
+  white-space: nowrap;
+}
+
+.header--fixed {
+  box-shadow: 4px 4px 10px rgba(163,177,198,0.6), -4px -4px 10px  rgba(255,255,255, 0.5);
+}
+
+
+/*------------- #RESPONSIVE --------------*/
+
+@media (min-width: 992px) {
+
+  .header--fixed {
+    .top-bar {
+      visibility: hidden;
+      opacity: 0;
+      height: 0;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+  }
+
+  .header--fixed {
+    background-color: rgba(255, 255, 255, .95);
+
+    .navigation-link {
+      padding: 25px 10px;
+    }
+
+    .navigation-link::after {
+      bottom: 25px;
+    }
+
+    .user-menu {
+      transform: scale(0);
+    }
+  }
+
+  .menu-item-info {
+    padding: 5px 20px 5px 30px;
+    margin-bottom: 10px;
+  }
+
+  .menu-item-info-title {
+    margin-bottom: 0;
+    line-height: 1.2;
+  }
+
+  .menu-item-info-text {
+    font-size: 15px;
+    opacity: .8;
+    padding-right: 20px;
+
+    & + .crumina-button {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .site-logo img {
+    min-width: 40px;
+  }
+
+  .logo-title {
+    font-size: 20px;
+  }
+
+  .logo-sub-title {
+    font-size: 8px;
+  }
+}

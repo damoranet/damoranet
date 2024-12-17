@@ -1,0 +1,37 @@
+/*------------- #SERVICES --------------*/
+
+
+.crumina-service-item {
+  padding: 60px;
+  height: 100%;
+  transition: all .3s ease;
+
+  &:hover {
+	background-color: var(--grey-themes);
+
+	.service-item-text {
+	  color: var(--body-font-color);
+	}
+  }
+}
+
+.service-item-link {
+  &:hover {
+	fill: var(--primary-accent-color);
+  }
+}
+
+.service-item-text {
+  color: var(--white-color);
+  transition: all .3s ease;
+  margin-bottom: 30px;
+}
+
+.service-item-title {
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.service-item-thumb {
+  margin-bottom: 30px;
+}

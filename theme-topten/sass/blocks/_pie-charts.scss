@@ -1,0 +1,68 @@
+/*------------- #PIE-CHARTS --------------*/
+
+
+.crumina-pie-chart-item{
+  display: flex;
+}
+
+.pie-chart {
+  width: 170px;
+  height: 170px;
+  min-width: 170px;
+  min-height: 170px;
+  position: relative;
+  border-radius: 100%;
+  border: 5px solid var(--grey-themes);
+  margin-right: 30px;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 145px;
+    height: 145px;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border-radius: 100%;
+    border: 5px solid var(--grey-themes);
+    z-index: -1;
+  }
+
+  .content {
+    font-size: 40px;
+    color: var(--heading-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+}
+
+.pie-chart-content-text {
+  margin-bottom: 20px;
+}
+
+.pie-chart canvas {
+  max-width:100%;
+  height: auto !important;
+}
+
+/*------------- Responsive Mode --------------*/
+
+
+@media (max-width: 1024px) {
+  .crumina-pie-chart-item {
+    flex-direction: column;
+  }
+
+  .pie-chart {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

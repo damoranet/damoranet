@@ -1,0 +1,27 @@
+/*------------- #WIDGETS --------------*/
+
+
+.widget--sidebar {
+  margin-bottom: 60px;
+
+  &:last-child {
+	margin-bottom: 0;
+  }
+
+  .crumina-heading {
+	margin-bottom: 25px;
+  }
+}
+
+
+/*------------- Responsive Mode --------------*/
+
+@media (max-width: 1200px) {
+  .widget--sidebar {
+	margin-bottom: 30px;
+  }
+
+  .widget--sidebar .crumina-heading {
+	margin-bottom: 15px;
+  }
+}

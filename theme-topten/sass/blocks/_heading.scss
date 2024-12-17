@@ -1,0 +1,119 @@
+/*------------- HEADING --------------*/
+
+
+.crumina-heading {
+  position: relative;
+
+  .title-text-wrap {
+    position: relative;
+    z-index: 5;
+  }
+
+  .title-text-wrap > * {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &:hover {
+
+    .heading-decoration:before {
+      animation: movebg 50s linear infinite;
+
+      @keyframes movebg {
+        from {
+          background-position: 0 0;
+        }
+        to {
+          background-position: 4000px 0;
+        }
+      }
+    }
+  }
+
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+
+  & > *:first-child {
+    margin-top: 0;
+  }
+}
+
+.heading-decoration {
+  position: relative;
+  margin-top: 20px;
+  width: 170px;
+  height: 2px;
+  max-width: 100%;
+  display: inline-block;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url("../img/theme-content/heading/heading-decoration-bg.png");
+    background-repeat: repeat;
+  }
+}
+
+.heading-text {
+  margin-top: 15px;
+  font-size: 18px;
+  color: var(--heading-color);
+}
+
+.read-more {
+  color: var(--heading-color);
+  padding: 0 0 0 30px;
+  border-left: 1px solid #949fac;
+  margin: 0 0 0 30px;
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: 0;
+
+  .crumina-icon {
+    margin-left: 10px;
+    fill: var(--primary-accent-color);
+  }
+}
+
+.heading--white {
+  color: var(--white-color);
+
+  .heading-title {
+    color: inherit;
+  }
+
+  .heading-text {
+    color: inherit;
+  }
+}
+
+/*--------------------
+    MEDIA QUERIES
+--------------------*/
+
+@media (max-width: 980px) {
+  .heading-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 570px) {
+  .heading-text {
+    font-size: 16px;
+  }
+
+  .read-more {
+    padding-left: 0;
+    margin-left: 0;
+    border: none;
+    float: none;
+  }
+}

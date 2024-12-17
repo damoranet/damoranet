@@ -1,0 +1,58 @@
+/*------------- #RAIT-STARS --------------*/
+
+.rait-stars {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+
+  li {
+	display: inline-flex;
+	margin-right: 2px;
+
+	&:last-child {
+	  margin-right: 0;
+	}
+  }
+
+  .crumina-icon {
+	fill: transparent;
+	stroke: #9ea8b4;
+
+	&.star-active {
+	  fill: var(--yellow-themes);
+	  stroke: transparent;
+	}
+  }
+}
+
+.rait-stars--reviews {
+
+  li {
+	margin-right: 5px;
+
+	&:last-child {
+	  margin-right: 0;
+	}
+  }
+
+  &:hover {
+	.crumina-icon {
+	  fill: var(--heading-color);
+	  stroke: var(--heading-color);
+	}
+  }
+
+  a:hover {
+	.crumina-icon {
+	  fill: var(--primary-accent-color);
+	  stroke: var(--primary-accent-color);
+	}
+  }
+
+  li:hover ~ li a .crumina-icon {
+	fill: transparent;
+	stroke: #949fac;
+  }
+}

@@ -1,0 +1,81 @@
+/*------------- #CONTACTS --------------*/
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .contacts {
+  padding: 40px 0;
+  border-top: 2px solid var(--border-dark-color);
+}
+
+.contacts-item {
+  display: flex;
+  align-items: center;
+
+  .crumina-icon {
+	margin-right: 30px;
+	width: 70px;
+	height: 70px;
+	min-width: 70px;
+	min-height: 70px;
+  }
+
+  .title {
+	font-weight: 500;
+	font-size: 24px;
+	color: var(--heading-color);
+
+	&.c-white {
+	  color: var(--white-color);
+	}
+  }
+
+  a.title {
+
+	&:hover {
+	  color: var(--primary-accent-color);
+	}
+  }
+
+  .sub-title {
+	font-weight: 500;
+	font-size: 16px;
+  }
+}
+
+/*------------- Responsive Mode --------------*/
+
+
+@media (max-width: 991px) {
+  .contacts-item {
+    flex-direction: column;
+    text-align: center;
+
+    .crumina-icon {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts-item {
+    flex-direction: row;
+    text-align: left;
+    margin-bottom: 15px;
+
+    .crumina-icon {
+      margin-right: 20px;
+    }
+
+    .title {
+      font-size: 18px;
+    }
+
+    .contacts {
+      flex-direction: column;
+    }
+  }
+}

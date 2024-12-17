@@ -10,9 +10,7 @@ class Paginas extends Controller
     public function index()
     {
         // Carga la vista de inicio
-        return view('plantilla/header') . 
-               view('paginas/inicio') . 
-               view('plantilla/footer');
+        return view('paginas/inicio');
     }
 
     // Método para cargar las vistas dinámicas
@@ -31,8 +29,7 @@ class Paginas extends Controller
         }
 
         // Carga la vista
-        return view('plantilla/header') . 
-               view('paginas/' . $viewPath) . 
-               view('plantilla/footer');
+        return view('paginas/' . $viewPath);
+
     }
 }

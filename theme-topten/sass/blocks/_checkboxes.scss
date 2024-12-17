@@ -1,0 +1,74 @@
+/*------------- #STYLES for checkboxes --------------*/
+
+.crumina-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.crumina-checkbox input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.control__indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: var(--primary-accent-color);
+  border-radius: 3px;
+}
+.control--radio .control__indicator {
+  border-radius: 50%;
+}
+.control:hover input ~ .control__indicator,
+.crumina-checkbox input:focus ~ .control__indicator {
+  background: var(--primary-accent-color);
+}
+.crumina-checkbox input:checked ~ .control__indicator {
+  background: var(--primary-accent-color);
+}
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.crumina-checkbox input:checked:focus ~ .control__indicator {
+  background: var(--primary-accent-color);
+}
+.crumina-checkbox input:disabled ~ .control__indicator {
+  background: #d9dfe7;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.control__indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.crumina-checkbox input:checked ~ .control__indicator:after {
+  display: block;
+}
+.control--checkbox .control__indicator:after {
+  left: 8px;
+  top: 4px;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.control--checkbox input:disabled ~ .control__indicator:after {
+  border-color: #c5ccd5;
+}
+.control--radio .control__indicator:after {
+  left: 7px;
+  top: 7px;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #fff;
+}
+.control--radio input:disabled ~ .control__indicator:after {
+  background: #c5ccd5;
+}

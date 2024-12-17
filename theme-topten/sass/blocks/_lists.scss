@@ -1,0 +1,104 @@
+/*------------- #LISTS --------------*/
+
+
+ul {
+  a {
+	display: block;
+  }
+}
+
+ul:not([class]) {
+  padding-left: 40px;
+}
+
+ul:not([class]),
+ol:not([class]) {
+
+  li {
+	margin-bottom: 15px;
+	font-size: 16px;
+
+	&:last-child {
+	  margin-bottom: 0;
+	}
+  }
+
+  ul {
+	padding: 0;
+	padding-left: 40px;
+	margin: 20px 0 15px;
+	list-style: inherit;
+
+	li {
+	  margin-bottom: 0;
+	}
+  }
+}
+
+ol ol li {
+  padding-left: 40px;
+}
+
+ul ul,
+ol ul,
+ul ol {
+  margin: 10px 0;
+  padding-left: 0;
+}
+
+ol ol ol li {
+  padding-left: 55px;
+}
+
+ul ol li {
+  padding-left: 40px;
+}
+
+/*------------- List Standard --------------*/
+
+.list--standard {
+  list-style: none;
+  padding-left: 20px;
+
+  li {
+	list-style: none;
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 15px;
+	font-size: 16px;
+
+	&:last-child {
+	  margin-bottom: 0;
+	}
+
+	.crumina-icon {
+	  position: relative;
+	  top: 6px;
+	  margin-right: 20px;
+	  min-width: 12px;
+	}
+  }
+}
+
+/*------------- Responsive Mode --------------*/
+
+
+@media (max-width: 640px) {
+
+  ul li {
+	font-size: 13px;
+  }
+
+  ol li {
+	font-size: 13px;
+	padding-left: 20px;
+  }
+
+  ol ol li {
+	padding-left: 30px;
+  }
+
+  ol ol ol li {
+	padding-left: 40px;
+  }
+}

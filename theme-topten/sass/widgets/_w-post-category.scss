@@ -1,0 +1,42 @@
+/*------------- #W-POST-CATEGORY --------------*/
+
+
+.post-category-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+
+  &:last-child {
+	margin-bottom: 0;
+  }
+
+  .crumina-icon {
+	opacity: 0;
+	margin-left: 10px;
+	fill: var(--primary-accent-color);
+  }
+
+  &:hover {
+	.crumina-icon {
+	  opacity: 1;
+	  transform: translateX(5px);
+	}
+  }
+}
+
+.post-category-title {
+  display: flex;
+  align-items: center;
+}
+
+.post-category-count {
+  margin-right: 30px;
+}
+
+/*------------- Responsive Mode --------------*/
+
+@media (max-width: 768px) {
+  .post-category-count {
+	margin-right: 15px;
+  }
+}

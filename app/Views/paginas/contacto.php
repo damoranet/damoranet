@@ -1,94 +1,97 @@
-<title> Contacto - Agencia de Marketing Digital en República Dominicana | DamoraNET</title>
+<?php
 
-<meta name="description" content="¡Hola! Somos una Agencia de Marketing Digital ubicada en Santo Domingo, República Dominicana. Puedes contactanos sin compromiso al (849) 356-1112 o al WhatsApp, también puedes escribirnos a: info@damoranet.com. ¡Esperamos escucharte pronto!"/>
-</head>
+$this->setData([
+	'title' => 'Contacto - Agencia de Marketing Digital en República Dominicana | DamoraNET',
+	'descripcion' => '¡Hola! Somos una Agencia de Marketing Digital ubicada en Santo Domingo, República Dominicana. Puedes contactanos sin compromiso al (849) 356-1112 o al WhatsApp, también puedes escribirnos a: info@damoranet.com. ¡Esperamos escucharte pronto!',
+]);
 
-<body>
+$this->extend('plantilla/layout');
 
-   <!-- HEADER MENU -->
-   <?= $this->include('plantilla/header-menu.php'); ?>
-   <!-- /HEADER MENU -->
+?>
 
-	<!-- CONTENIDO PRINCIPAL -->
-	<div class="main-content-wrapper">
+<?php echo $this->Section("cuerpo"); ?>
 
-		<!-- STUNNING HEADER -->
-		<section class="crumina-stunning-header section-image-bg-moon">
+<!-- CONTENIDO PRINCIPAL -->
+<div class="main-content-wrapper">
 
-			<div class="container">
-				<!-- STUNNING HEADER CONTENT -->
-				<div class="stunning-header-content align-center">
+	<!-- STUNNING HEADER -->
+	<section class="crumina-stunning-header section-image-bg-moon">
 
-					<!-- PAGE TITLE -->
-					<h1 class="page-title text-white">Contacto </h1>
-					<!-- /PAGE TITLE -->
+		<div class="container">
+			<!-- STUNNING HEADER CONTENT -->
+			<div class="stunning-header-content align-center">
 
-					<!-- BREADCRUMBS -->
-					<div class="crumina-breadcrumbs">
+				<!-- PAGE TITLE -->
+				<h1 class="page-title text-white">Contacto </h1>
+				<!-- /PAGE TITLE -->
 
-						<!-- BREADCRUMBS LIST -->
-						<ul class="breadcrumbs">
+				<!-- BREADCRUMBS -->
+				<div class="crumina-breadcrumbs">
 
-							<!-- BREADCRUMBS ITEM -->
-							<li class="breadcrumbs-item">
-								<a href="<?= base_url() ?>"> Inicio </a>
-							</li>
+					<!-- BREADCRUMBS LIST -->
+					<ul class="breadcrumbs">
 
-							<!-- /BREADCRUMBS ITEM -->
+						<!-- BREADCRUMBS ITEM -->
+						<li class="breadcrumbs-item">
+							<a href="<?= base_url() ?>"> Inicio </a>
+						</li>
 
-							<!-- BREADCRUMBS ITEM -->
-							<li class="breadcrumbs-item trail-end">
-								<span class="crumina-icon">»</span>
-								<span> Información de contacto </span>
-							</li>
-							<!-- /BREADCRUMBS ITEM -->
+						<!-- /BREADCRUMBS ITEM -->
 
-						</ul>
-						<!-- /BREADCRUMBS LIST -->
+						<!-- BREADCRUMBS ITEM -->
+						<li class="breadcrumbs-item trail-end">
+							<span class="crumina-icon">»</span>
+							<span> Información de contacto </span>
+						</li>
+						<!-- /BREADCRUMBS ITEM -->
 
-					</div>
-					<!-- /BREADCRUMBS -->
+					</ul>
+					<!-- /BREADCRUMBS LIST -->
 
 				</div>
-				<!-- /STUNNING HEADER CONTENT -->
+				<!-- /BREADCRUMBS -->
+
 			</div>
+			<!-- /STUNNING HEADER CONTENT -->
+		</div>
 
-		</section>
-		<!-- /STUNNING HEADER -->
+	</section>
+	<!-- /STUNNING HEADER -->
 
-		<section class="large-padding">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<header class="crumina-module crumina-heading">
-							<div class="title-text-wrap">
+	<section class="large-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<header class="crumina-module crumina-heading">
+						<div class="title-text-wrap">
 
-								<!-- CRUMINA HEADING TITLE -->
-								<h2 class="heading-title"> Contáctanos sin compromiso  </h2>
-								<!-- /CRUMINA HEADING TITLE -->
+							<!-- CRUMINA HEADING TITLE -->
+							<h2 class="heading-title"> Contáctanos sin compromiso </h2>
+							<!-- /CRUMINA HEADING TITLE -->
 
-							</div>
+						</div>
 
-							<!-- CRUMINA HEADING DECORATION -->
-							<div class="heading-decoration"></div>
-							<!-- /CRUMINA HEADING DECORATION  -->
+						<!-- CRUMINA HEADING DECORATION -->
+						<div class="heading-decoration"></div>
+						<!-- /CRUMINA HEADING DECORATION  -->
 
-							<!-- CRUMINA HEADING TEXT -->
-							<div class="heading-text"> Tanto si tienes un negocio o proyecto digital, como si tienes la idea de crear un nuevo sitio web, en Damoranet podemos ayudarte.
-								<p>Desde la creación de una página web sencilla, con poco presupuesto, hasta el lanzamiento de un proyecto empresarial complejo.</p>
+						<!-- CRUMINA HEADING TEXT -->
+						<div class="heading-text"> Tanto si tienes un negocio o proyecto digital, como si tienes la idea de crear un nuevo sitio web, en Damoranet podemos ayudarte.
+							<p>Desde la creación de una página web sencilla, con poco presupuesto, hasta el lanzamiento de un proyecto empresarial complejo.</p>
 
-							</div>
-							<!-- /CRUMINA HEADING TEXT -->
+						</div>
+						<!-- /CRUMINA HEADING TEXT -->
 
-						</header>
-					</div>
+					</header>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<!-- CTA DE CONTACTO -->
-		<?= $this->include('bloques/cta-contacto.php'); ?>
+	<!-- CTA DE CONTACTO -->
+	<?= $this->include('bloques/cta-contacto.php'); ?>
 
-	</div>
-	<!-- /MAIN CONTENT WRAPPER -->
+</div>
+<!-- /CONTENIDO PRINCIPAL -->
 
+<?php $this->endSection(); ?>
