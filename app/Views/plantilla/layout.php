@@ -364,7 +364,7 @@
             -
             <a href="<?= base_url() ?>aviso-legal">(Aviso Legal)</a>
             <br>
-            (t: {elapsed_time} s. / m: {memory_usage}) - Ver.2024-12-17
+            (t: {elapsed_time} s. / m: {memory_usage}) - Ver.2024-12-18
         </div>
         <!-- /SUB FOOTER -->
     </footer>

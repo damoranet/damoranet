@@ -12,8 +12,8 @@ class App extends BaseConfig
      * --------------------------------------------------------------------------
      */
     //public string $baseURL = 'http://localhost/damoranet.com/';
-    public string $baseURL = 'http://damoranet.us-east-1.elasticbeanstalk.com/';
-    //public string $baseURL = 'https://damoranet.com/';
+    //public string $baseURL = 'http://damoranet.us-east-1.elasticbeanstalk.com/';
+    public string $baseURL = 'https://damoranet.com/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
